@@ -1,3 +1,9 @@
 .App {
   text-align: center;
 }
+.text-footer {
+  font-size: 10px;
+}
+h1 {
+  margin-top: 5vh;
+}
