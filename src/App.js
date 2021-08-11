@@ -12,7 +12,8 @@ function App() {
             <Dictionary />
           </main>
         </header>
-        <footer className="text-footer">Coded by Luzanne</footer>
+        <footer className="project-footer"><a href="https://github.com/Luzanne-S/Dictionary-App">Coded by Luzanne</a></footer>
+        
       </div>
     </div>
   );
