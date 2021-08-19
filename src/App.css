@@ -1,11 +1,30 @@
 .App {
   text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
 }
 .text-footer {
   font-size: 10px;
 }
 h1 {
-  margin-top: 5vh;
+  margin-top: 9vh;
   margin-bottom: 2vh;
   font-family: "Playfair Display", serif;
+}
+.switch {
+  position: absolute;
+  top: 0;
+  padding-top: 10px;
+  right: 20px;
+}
+footer,
+a {
+  position: relative;
+  top: 150px;
+  width: 100%;
+  color: #c6dbda;
+  text-decoration: none;
+}
+a:hover {
+  color: black;
 }
