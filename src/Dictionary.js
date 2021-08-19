@@ -24,9 +24,23 @@ export default function Dictionary() {
 
   return (
     <div className="Dictionary">
-      <form onSubmit={search}>
-        <input type="search" onChange={handleKeywordChange} />
+      <form className="form-inline" onSubmit={search}>
+        <input
+          className="form-control mr-sm-2"
+          type="search"
+          placeholder="Search a word"
+          aria-label="Search"
+          onChange={handleKeywordChange}
+        />
+        &nbsp;
+        <button className="btn btn-outline-light my-2 my-sm-0 " type="submit">
+          <i className="fa fa-search" aria-hidden="true"></i>
+        </button>
       </form>
+      <div className="Recommendations">
+        <h6>Recommendations:</h6>
+        Lotus &nbsp; Recherche &nbsp; Luxury
+      </div>
       <Results results={results} />
     </div>
   );
