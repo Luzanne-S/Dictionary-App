@@ -1,0 +1,15 @@
+img {
+  border-radius: 4px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  padding: 0px;
+}
+.row {
+  position: relative;
+
+  left: 120px;
+  bottom: 110px;
+  width: 100%;
+}
