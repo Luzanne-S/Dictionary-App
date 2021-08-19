@@ -1,3 +1,26 @@
 .Dictionary {
   margin-top: 10vh;
 }
+.form-inline {
+  width: fit-content;
+  display: flex;
+  flex-wrap: nowrap;
+  margin: auto;
+}
+i {
+  color: #97c1a9;
+}
+.Dictionary section {
+  margin-top: 20px;
+  background-color: #f5f5fd;
+  padding: 30px;
+  border-radius: 5px;
+}
+h6 {
+  margin-top: 40px;
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+}
+.Recommendations {
+  font-size: 13px;
+}
