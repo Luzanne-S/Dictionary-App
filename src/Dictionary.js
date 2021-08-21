@@ -22,7 +22,7 @@ export default function Dictionary() {
 
     let pexelsApiKey =
       "563492ad6f91700001000001463cbb39d1b14492ab91b777587fee55";
-    let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=3`;
+    let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=4`;
     let headers = { Authorization: `Bearer ${pexelsApiKey}` };
     axios.get(pexelsApiUrl, { headers: headers }).then(handlePexelsResponse);
   }
@@ -57,7 +57,7 @@ export default function Dictionary() {
         </form>
         <div className="Recommendations">
           <h6>Recommendations:</h6>
-          Lotus &nbsp; Recherche &nbsp; Luxury
+          lotus &nbsp; coffee &nbsp; luxury
         </div>
         <Results results={results} />
         <Photos photos={photos} />
