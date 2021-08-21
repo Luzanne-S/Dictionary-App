@@ -26,11 +26,11 @@ ul {
 }
 
 ul li::before {
-  content: "\269C";
+  content: "\2022";
   color: #c6dbda;
   font-weight: bold;
   display: inline-block;
-  width: 2em;
+  width: 1em;
 }
 .Results {
   margin: auto;
