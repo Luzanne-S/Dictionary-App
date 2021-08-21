@@ -8,8 +8,7 @@ img {
 }
 .row {
   position: relative;
-
-  left: 120px;
+  left: 10px;
   bottom: 110px;
   width: 100%;
 }
