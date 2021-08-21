@@ -32,7 +32,21 @@
     <title>Dictionary App</title>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div className="container">
+        <div class="form-check form-switch switch" onClick="myFunction()">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            id="flexSwitchCheckDefault"
+          />
+          <label class="form-check-label" for="flexSwitchCheckDefault"></label>
+        </div>
+    <script>
+    function myFunction() {
+        var element = document.body;
+        element.classList.toggle("dark");
+        }
+        </script>
     <div id="root"></div>
   </body>
 </html>
