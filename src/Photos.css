@@ -1,14 +1,27 @@
 img {
   border-radius: 4px;
+
   margin-bottom: 20px;
-  width: 100%;
+  max-width: 100%;
   height: auto;
   margin: auto;
-  padding: 0px;
+  padding-bottom: 6px;
 }
 .row {
   position: relative;
   left: 10px;
   bottom: 110px;
   width: 100%;
+}
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+@media (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
 }
