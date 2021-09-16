@@ -1,4 +1,4 @@
-Dictionary-App
+Dictionary Application
 
 The project was made for my bootcamp as one of the workshops.
 The brief was to create a dictionary application that allowed the user to type in a word and then the application would produce the following results (if they were availble);
