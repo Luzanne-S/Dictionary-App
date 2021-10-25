@@ -6,3 +6,4 @@ phonetics,nouns, examples, synonyms,and images associated with the word.
 
 The application was created with Create React App and the itegrated the Free Dictionary API and Pexels API
 
+![Image of Dictionary-App](/public/Screenshot.png)
