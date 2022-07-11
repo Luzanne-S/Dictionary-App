@@ -24,3 +24,10 @@ h6 {
 .Recommendations {
   font-size: 13px;
 }
+
+@media (max-width: 741px) {
+  input {
+    height: fit-content;
+    margin-top: 3%;
+  }
+}
