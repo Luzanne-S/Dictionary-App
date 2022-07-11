@@ -45,7 +45,7 @@ audio::-webkit-media-controls-panel {
   border-radius: 15px;
 }
 audio {
-  width: 50%;
+  width: 70%;
 }
 .definition {
   font-size: 15px;
@@ -58,4 +58,10 @@ audio {
   display: inline-block;
   padding-right: 15px;
   font-size: 14px;
+}
+
+@media (max-width: 741px) {
+  .Results {
+    width: 100%;
+  }
 }
