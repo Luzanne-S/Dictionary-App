@@ -6,4 +6,7 @@ phonetics,nouns, examples, synonyms,and images associated with the word.
 
 The application was created with Create React App and Bootstrap and the itegrated the Free Dictionary API and Pexels API
 
+
+- Live Site URL: [https://distracted-neumann-11cc7e.netlify.app/]
+
 ![Image of Dictionary-App](/public/Screenshot.png)
